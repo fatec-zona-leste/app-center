@@ -14,7 +14,7 @@ Imagens públicas na Play Store
 ## Aceitar Convite
 Você receberá um email com o convite para participar da conta de desenvolvedor
 
-<img width="100%" src="./img/Imagem34.png?v=2">
+<img width="100%" src="./img/Imagem34-1.png?v=2">
 
 Aceite os termos e clique em "Aceitar Convite", depois você será redirecionado para a tela inicial do [Google Play Console](https://play.google.com/console/u/0/developers)
 
@@ -25,7 +25,7 @@ Mostra todos os aplicativos aos quais você tem acesso:
 [Google Play Console](https://play.google.com/console/u/0/developers)
 
 
-<img width="100%" src="./img/Imagem1.png?v=2">
+<img width="100%" src="./img/Imagem1-1.png?v=2">
 
 Ao selecionar o aplicativo, é apresentado a tela de configuração do app que contém a lista de passos para a publicação na Play Store. Não é necessário preencher na ordem que é apresentado, caso não seja possível realizar uma etapa nesse momento, é possível pular para outra que não dependa da etapa atual.
 
@@ -46,13 +46,12 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store aprovar a publicação), contendo o arquivo de build (.aab). Nessa etapa, é necessário definir o nome da versão (visível apenas internamente, para fins de controle), adicionar as notas da versão (uma descriçãlo do que essa versão do seu aplicativo faz e que serão exibidas publicamente na Play Store) e, por fim, anexar o arquivo .aab. É possível clonar a versão de teste para a versão em produção, então preencha esses dados corretamente para facilitar.
 
 <img width="100%" src="./img/Imagem37.png?v1">
-<img width="100%" src="./img/Imagem38.png?v1">
-
-<img width="100%" src="./img/Imagem4.png?v1">
+<img width="100%" src="./img/Imagem38-1.png?v1">
+<img width="100%" src="./img/Imagem4-1.png?v1">
 
 Caso queira que alguém possa baixar o aplicativo antes da aprovação da Play Store, crie uma lista com o nome do seu aplicativo e adicione todos os e-emails de quem quer permitir que baixe antecipadamente, caso não queira essa opção, selecione a lista "Fatec" para cumprir essa etapa. Após adicionar a lista de e-mails dos testadores, compartilhe o link para que eles possam baixar o aplicativo antes dele ser lançado
 
-<img width="100%" src="./img/Imagem39.png?v=2">
+<img width="100%" src="./img/Imagem39-1.png?v=2">
 
 ### Visualizar e confirmar a versão
 Por fim, basta avançar para visualizar um resumo geral e possíveis alertas de erro, caso existam. Para facilitar a visualização, expanda as mensagens e corrija os pontos indicados, se necessário.
@@ -79,12 +78,12 @@ Nessa opção você informa se seu aplicativo é livre ou tem alguma funcionalid
 
 Se seu aplicativo possuir sistema de login, é necessário informar um usuário e senha de teste e informações para a Play Store acessar e realizar testes
 
-<img width="100%" src="./img/Imagem9.png?v=2">
+<img width="100%" src="./img/Imagem9-1.png?v=2">
 
 Ao clicar em “Adicionar instrução”, você deverá informar o nome da instrução, login e senha, e, se necessário, detalhes adicionais sobre como realizar o login.
 
-<img width="100%" src="./img/Imagem10.png?v=20">
-<img width="100%" src="./img/Imagem31.png?v=20">
+<img width="100%" src="./img/Imagem10-1.png?v=20">
+<img width="100%" src="./img/Imagem31-1.png?v=20">
 
 Por fim, basta salvar.
 
@@ -93,64 +92,64 @@ Por fim, basta salvar.
 ### Anúncios
 Na opção de anúncios, basta responder se seu aplicativo possui anúncios
 
-<img width="100%" src="./img/Imagem12.png?v=2">
+<img width="100%" src="./img/Imagem12-1.png?v=2">
 
 ### Classificações de conteúdo
 A fase de “Classificações de conteúdo” é um formulário sobre o conteúdo do seu aplicativo e com base nas respostas a Play Store define a classificação de idade.
 
-<img width="100%" src="./img/Imagem13.png">
+<img width="100%" src="./img/Imagem13-1.png">
 
 
 Adicione um email, informe a categoria do seu app e aceite os termos
 
-<img width="100%" src="./img/Imagem14.png?v=2">
+<img width="100%" src="./img/Imagem14-1.png?v=2">
 
 Basta responder às perguntas conforme o conteúdo do seu aplicativo e visualizar um resumo com as informações para confirmação.
 
-<img width="100%" src="./img/Imagem15.png?v=2">
+<img width="100%" src="./img/Imagem15-1.png?v=2">
 
 ### Segurança dos dados
 Na fase “Segurança dos dados”, você deverá informar quais dados obrigatórios o seu aplicativo coleta dos usuários (como nome e e-mail) e dizer se o aplicativo tem um sistema de criação de conta.
 
-<img width="100%" src="./img/Imagem16.png?v=2">
-<img width="100%" src="./img/Imagem17.png?v=2">
+<img width="100%" src="./img/Imagem16-1.png?v=2">
+<img width="100%" src="./img/Imagem17-1.png?v=2">
 
 Se houver dados obrigatórios, é preciso informar se os dados são criptografados.
 
-<img width="100%" src="./img/Imagem18.png?v=2">
+<img width="100%" src="./img/Imagem18-1.png?v=2">
 
 Você deve informar também se o seu aplicativo aplicativo possui a funcionalidade de criação de conta. Se houver, é necessário adicionar um link onde o usuário possa fazer uma solicitação para a exclusão dos dados, ou para ele mesmo excluir a conta. Essa parte não é validada, portanto é possível adicionar um link para a página de perfil do usuário ou um link para uma página dizendo que essa funcionalidade ainda não existe. (Caso não tenha um site, crie um simples e suba em uma hospedagem, como o [GitHub Pages](https://pages.github.com/))
 
-<img width="100%" src="./img/Imagem19.png?v=2">
+<img width="100%" src="./img/Imagem19-1.png?v=2">
 <img width="100%" src="./img/Imagem36.png?v=2">
 
 
 Se o seu aplicativo permite que o usuário exclua apenas determinados dados, você pode fornecer um link com essa funcionalidade. No entanto, essa etapa não é obrigatória. Depois de concluído, a opção “próximo” será liberada.
 
-<img width="100%" src="./img/Imagem20.png?v=2">
+<img width="100%" src="./img/Imagem20-1.png?v=2">
 
 
 ### Apps governamentais
 Basta informar se seu aplicativo foi desenvolvido em nome de um órgão governamental. 
 
-<img width="100%" src="./img/Imagem21.png">
+<img width="100%" src="./img/Imagem21-1.png">
 
 ### Recursos financeiros
 Informe se o seu aplicativo possui algum recurso financeiro, como serviços bancários e empréstimos. É possível marcar mais de um. Se não houver, marque a última opção: “Meu app não oferece recursos financeiros”
 
-<img width="100%" src="./img/Imagem22.png?v=2">
+<img width="100%" src="./img/Imagem22-1.png?v=2">
 
 ### Apps de saúde
 Informe se o seu aplicativo possui algum recurso de saúde. É possível marcar mais de um. Se não houver, marque a última opção: “Meu app não tem recursos de saúde”
 
-<img width="100%" src="./img/Imagem23.png?v=2">
+<img width="100%" src="./img/Imagem23-1.png?v=2">
 
 ### Selecionar uma categoria do app e fornecer detalhes de contato
 Aqui você pode adicionar a categoria do aplicativo, algumas tags, informações de contato públicas da Play Store e se o aplicativo pode ser anunciado fora da Play Store
 
 
-<img width="100%" src="./img/Imagem24.png?v=2">
-<img width="100%" src="./img/Imagem25.png?v=2">
+<img width="100%" src="./img/Imagem24-1.png?v=2">
+<img width="100%" src="./img/Imagem25-1.png?v=2">
 
 ### Configurar a página "Detalhes do app"
 Detalhes do app é onde você define as informações públicas na Play Store, como ícone, nome, descrição e banner.
@@ -181,7 +180,7 @@ Modelo no Canva que atende a todos os tamanhos: [Link](https://www.canva.com/des
 
 É possível adicionar de Chromebook e Android XR, mas não são obrigatórios
 
-<img width="100%" src="./img/Imagem30.png?v=2">
+<img width="100%" src="./img/Imagem30-1.png?v=2">
 <img width="100%" src="./img/Imagem32.png?v=2">
 <br>
 
@@ -199,20 +198,20 @@ Será apresentado uma tela como essa, uma cópia da sua versão de teste, mas ag
 
 Clique em "Adicionar países / regiões"
 
-<img width="100%" src="./img/Imagem42.png">
+<img width="100%" src="./img/Imagem42-1.png">
 
 
 Selecione os países e regiões que deseja (é possível selecionar todos) e clique em Salvar.
 
-<img width="100%" src="./img/Imagem43.png">
+<img width="100%" src="./img/Imagem43-1.png">
 
 Após salvar, será possível ir para a tela de "Visão geral da publicação", onde é mostrado as mudanças feitas no seu aplicativo e a opção de enviar para a Play Store revisar, depois da revisão, o seu aplicativo estará disponível na Play Store.
 
-<img width="100%" src="./img/Imagem44.png">
+<img width="100%" src="./img/Imagem44-1.png">
 
 Sempre que você alterar qualquer informação no seu aplicativo, será necessário abrir a tela "Visão geral da publicação" e enviar as mudanças para a revisão.
 
-<img width="100%" src="./img/Imagem45.png">
+<img width="100%" src="./img/Imagem45-1.png">
 
 Após enviar, a Play Store irá fazer uma validação rapida de alguns minutos, verificando se falta alguma informação
 
