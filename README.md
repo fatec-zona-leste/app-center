@@ -51,7 +51,7 @@ A segunda fase consiste em criar uma nova versão do aplicativo (versão de test
 
 Caso queira que alguém possa baixar o aplicativo antes da aprovação da Play Store, crie uma lista com o nome do seu aplicativo e adicione todos os e-emails de quem quer permitir que baixe antecipadamente, caso não queira essa opção, selecione a lista "Fatec" para cumprir essa etapa. Após adicionar a lista de e-mails dos testadores, compartilhe o link para que eles possam baixar o aplicativo antes dele ser lançado
 
-<img width="100%" src="./img/Imagem39-1.png?v=2">
+<img width="1916" height="925" alt="Imagem39-1" src="https://github.com/user-attachments/assets/c4bb445e-7649-4947-a887-b6d3cac62d4b" />
 
 ### Visualizar e confirmar a versão
 Por fim, basta avançar para visualizar um resumo geral e possíveis alertas de erro, caso existam. Para facilitar a visualização, expanda as mensagens e corrija os pontos indicados, se necessário.
@@ -112,7 +112,7 @@ Basta responder às perguntas conforme o conteúdo do seu aplicativo e visualiza
 Na fase “Segurança dos dados”, você deverá informar quais dados obrigatórios o seu aplicativo coleta dos usuários (como nome e e-mail) e dizer se o aplicativo tem um sistema de criação de conta.
 
 <img width="100%" src="./img/Imagem16-1.png?v=2">
-<img width="100%" src="./img/Imagem17-1.png?v=2">
+<img width="1912" height="924" alt="IMagem17-1" src="https://github.com/user-attachments/assets/5d5d0e66-7ffa-462a-964d-382677ef10b3" />
 
 Se houver dados obrigatórios, é preciso informar se os dados são criptografados.
 
@@ -147,8 +147,7 @@ Informe se o seu aplicativo possui algum recurso de saúde. É possível marcar 
 ### Selecionar uma categoria do app e fornecer detalhes de contato
 Aqui você pode adicionar a categoria do aplicativo, algumas tags, informações de contato públicas da Play Store e se o aplicativo pode ser anunciado fora da Play Store
 
-
-<img width="100%" src="./img/Imagem24-1.png?v=2">
+<img width="1912" height="924" alt="IMagem24-1" src="https://github.com/user-attachments/assets/0c8c5760-eb59-4eeb-a8cb-02f32f34bf56" />
 <img width="100%" src="./img/Imagem25-1.png?v=2">
 
 ### Configurar a página "Detalhes do app"
@@ -181,9 +180,8 @@ Modelo no Canva que atende a todos os tamanhos: [Link](https://www.canva.com/des
 É possível adicionar de Chromebook e Android XR, mas não são obrigatórios
 
 <img width="100%" src="./img/Imagem30-1.png?v=2">
-<img width="100%" src="./img/Imagem32.png?v=2">
+<img width="1912" height="924" alt="Imagem32" src="https://github.com/user-attachments/assets/d8034bb5-141f-4cc7-b192-9a189e62432a" />
 <br>
-
 
 # Criar e publicar uma versão
 Após todas as etapas estarem concluídas, a publicação será liberada. Vá até a opção "Teste Interno" dentro do menu lateral "Teste". Você encontrará uma lista de versões que você criou. É possível promover essa versão para produção clicando em "Promover versão" > "Produção"
