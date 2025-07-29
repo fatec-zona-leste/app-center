@@ -218,3 +218,8 @@ Após enviar, a Play Store irá fazer uma validação rapida de alguns minutos, 
 Por fim, basta aguardar a aprovação da Play Store, que demora em média um dia. Se a publicação gerenciada estrriver desativada, o aplicativo será publicado assim que for aprovado. Se tiver ativo, você precisará subir manualmente após a aprovação
 
 <img width="100%" src="./img/Imagem47.png">
+<br>
+
+# Lançar atualizações
+Para lançar novas atualizações do seu aplicativo basta seguir o passo anterior [Criar e publicar uma versão](#criar-e-publicar-uma-versão)
+
