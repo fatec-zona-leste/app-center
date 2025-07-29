@@ -43,7 +43,7 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 <img width="100%" src="./img/Imagem3.png?v=2">
 
 ### Criar uma nova versão
-A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store aprovar a publicação), contendo o arquivo de build (.aab). Nessa etapa, é necessário definir o nome da versão (visível apenas internamente, para fins de controle), adicionar as notas da versão (uma descriçãlo do que essa versão do seu aplicativo faz e que serão exibidas publicamente na Play Store) e, por fim, anexar o arquivo .aab.
+A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store aprovar a publicação), contendo o arquivo de build (.aab). Nessa etapa, é necessário definir o nome da versão (visível apenas internamente, para fins de controle), adicionar as notas da versão (uma descriçãlo do que essa versão do seu aplicativo faz e que serão exibidas publicamente na Play Store) e, por fim, anexar o arquivo .aab. É possível clonar a versão de teste para a versão em produção, então preencha esses dados corretamente para facilitar.
 
 <img width="100%" src="./img/Imagem37.png?v1">
 <img width="100%" src="./img/Imagem38.png?v1">
