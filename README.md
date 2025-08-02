@@ -67,7 +67,11 @@ Por fim, basta avançar para visualizar um resumo geral e possíveis alertas de 
 
 <br>
 
-Depois, na tela de visualização da versão, clique em promover versão e adicione tanto para "Produção", para utilizar as mesmas informações e mesmo arquivo de build e não ser necessário informar tudo novamente
+Depois, na tela de visualização da versão, clique em promover versão e adicione tanto para "Produção", para utilizar as mesmas informações e mesmo arquivo de build e não ser necessário informar tudo novamente e basta clicar em "Próximo" e depois em "Salvar" para promover a versão para produção
+
+<img width="1917" height="925" alt="image" src="https://github.com/user-attachments/assets/48011b52-a77e-4e3c-abe5-1c9d3d93f564" />
+<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/5c3e92ab-b908-41a1-bc94-038d14f3f2b2" />
+
 
 # Configurar o app
 Nesta etapa, você deverá fornecer todas as informações necessárias sobre o aplicativo. Elas não impedem a publicação do app, exceto se estiverem incorretas ou inconsistentes.
