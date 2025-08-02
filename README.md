@@ -42,13 +42,21 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 <img width="100%" alt="Imagem3" src="https://github.com/user-attachments/assets/16c78089-f373-4899-9129-4b1c1bd462e4" />
 
 ### Criar uma nova versão
-A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store aprovar a publicação), contendo o arquivo de build (.aab). Nessa etapa, é necessário definir o nome da versão (visível apenas internamente, para fins de controle), adicionar as notas da versão (uma descriçãlo do que essa versão do seu aplicativo faz e que serão exibidas publicamente na Play Store) e, por fim, anexar o arquivo .aab. É possível clonar a versão de teste para a versão em produção, então preencha esses dados corretamente para facilitar.
+A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store avaliar e aprovar a publicação).<br>
+A Play Store aceita apenas o arquivos de build .aab (não aceita .apk).
+
+Nessa etapa, é necessário definir: <br>
+Nome da versão (visível apenas internamente, para fins de controle).<br>
+Adicionar as notas da versão (uma descrição do que essa versão do seu aplicativo faz e que serão exibidas publicamente na Play Store)<br>
+Anexar o arquivo .aab. 
+
+Ao criar a versão de produção é possível reutilizar os dados dessa versão, então preencha corretamente como será exibido na Play Store para facilitar.
 
 <img width="100%" alt="Imagem37" src="https://github.com/user-attachments/assets/27d11478-5dea-43ef-8e4c-fb50cc81bcf6" />
 <img width="100%" alt="Imagem38-1" src="https://github.com/user-attachments/assets/861342d7-3010-4430-b375-5cba6d58931c" />
 <img width="100%" alt="Imagem4-1" src="https://github.com/user-attachments/assets/49d45acb-f26f-4453-ac7a-4dc421aece18" />
 
-Caso queira que alguém possa baixar o aplicativo antes da aprovação da Play Store, crie uma lista com o nome do seu aplicativo e adicione todos os e-emails de quem quer permitir que baixe antecipadamente, caso não queira essa opção, selecione a lista "Fatec" para cumprir essa etapa. Após adicionar a lista de e-mails dos testadores, compartilhe o link para que eles possam baixar o aplicativo antes dele ser lançado
+Caso queira que alguém possa baixar o aplicativo antes da aprovação da Play Store, crie uma lista com o memso NOME do seu aplicativo e adicione todos os e-emails de quem quer permitir que baixe antecipadamente, caso não queira essa opção, selecione a lista "Fatec" para cumprir essa etapa. Após adicionar a lista de e-mails dos testadores, compartilhe o link para que eles possam baixar o aplicativo antes dele ser lançado
 
 <img width="100%" alt="Imagem39-1" src="https://github.com/user-attachments/assets/c4bb445e-7649-4947-a887-b6d3cac62d4b" />
 
@@ -58,6 +66,8 @@ Por fim, basta avançar para visualizar um resumo geral e possíveis alertas de 
 <img width="100%" alt="Imagem5" src="https://github.com/user-attachments/assets/c5132432-f683-42f8-8ddb-edf5aefe6892" />
 
 <br>
+
+Depois, na tela de visualização da versão, clique em promover versão e adicione tanto para "Produção", para utilizar as mesmas informações e mesmo arquivo de build e não ser necessário informar tudo novamente
 
 # Configurar o app
 Nesta etapa, você deverá fornecer todas as informações necessárias sobre o aplicativo. Elas não impedem a publicação do app, exceto se estiverem incorretas ou inconsistentes.
