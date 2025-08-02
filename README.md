@@ -166,8 +166,12 @@ Detalhes do app é onde você define as informações públicas na Play Store, c
 
 Crie uma breve descrição e uma descrição longa para seu aplicativo. Adicione o nome do curso e o nome completo dos desenvolvedores em ordem alfabética no início da descrição, exemplo:
 
-Curso: Análise e Desenvolvimento de Sistemas<br>
-Desenvolvedores: Enrique Alves, João Barbosa e Victor Andrioni
+Desenvolvedores:<br>
+João Santos<br>
+Enrique Alves<br>
+
+Curso:<br>
+Análise e Desenvolvimento de Sistemas - AMS
 
 <img width="100%" alt="Imagem27" src="https://github.com/user-attachments/assets/d4f30794-59d3-46c6-bd2a-193067ba0a7b" />
 
