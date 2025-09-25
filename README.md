@@ -6,7 +6,7 @@ Documentação criada para os alunos da Fatec Zona Leste publicarem seus aplicat
 - <img height="15px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" /> **Publicação para a  Apple Store:** https://github.com/fatec-zona-leste/app-center/tree/apple-store
 
 ## **Modelos de imagens**
-Imagens públicas na Play Store
+A Play Store pede algumas imagens obrigatórias, como ícone, banner e capturas de tela do aplicativo. Para facilitar e atender aos tamanhos solicitados, utilize os modelos:
 - Ícone (PNG ou JPEG de até 1 MB e 512 × 512px) - [Modelo no Canva](https://www.canva.com/design/DAGdfTpM8ek/L1qs4LzIVaPMOQKNRFU2nA/edit?utm_content=DAGdfTpM8ek&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - Recurso Gráfico - banner do aplicativo (PNG ou JPEG de até 15 MB e 1024px × 500px) - [Modelo no Canva](https://www.canva.com/design/DAGL3T90bGo/7ql7RXW6mDOEtkugVoBIEA/edit?utm_content=DAGL3T90bGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - Tela do Aplicativo - [Modelo no Canva](https://www.canva.com/design/DAGs0blP70w/CngI6ARr-KGa79a2WDyV9Q/edit?utm_content=DAGs0blP70w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
@@ -43,7 +43,7 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 
 ### Criar uma nova versão
 A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store avaliar e aprovar a publicação).<br>
-A Play Store aceita apenas o arquivos de build .aab (não aceita .apk).
+A Play Store aceita apenas o arquivo de build .aab (não aceita .apk).
 
 Nessa etapa, é necessário definir: <br>
 Nome da versão (visível apenas internamente, para fins de controle).<br>
