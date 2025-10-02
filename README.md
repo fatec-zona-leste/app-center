@@ -90,7 +90,7 @@ Nessa opção você informa se seu aplicativo é livre ou tem alguma funcionalid
 
 <img width="100%" alt="Imagem8" src="https://github.com/user-attachments/assets/f46b9d4a-1741-4237-9e42-cc885a8faaa8" />
 
-Se seu aplicativo possuir sistema de login, é necessário informar um usuário e senha de teste e informações para a Play Store acessar e realizar testes
+Se seu aplicativo possuir sistema de login, é necessário informar um usuário e senha de teste e informações para a Play Store acessar e realizar testes. O login precisa funcionar, pois eles acessam a conta e reprovam se o login/senha estiverem errados.
 
 <img width="100%" alt="Imagem9-1" src="https://github.com/user-attachments/assets/9b3548fd-feef-4e44-a806-cc543b3fa9b2" />
 
