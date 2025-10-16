@@ -43,7 +43,7 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 
 ### Criar uma nova versão
 A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store avaliar e aprovar a publicação).<br>
-A Play Store aceita apenas o arquivo de build .aab (não aceita .apk).
+A Play Store aceita apenas arquivo de build com extensão .aab (Android App Bundles) e assinados, NÃO aceita .apk. [Veja como criar aab assinado](como-criar-android-app-bundles-aab)</a>
 
 Nessa etapa, é necessário definir: <br>
 Nome da versão (visível apenas internamente, para fins de controle).<br>
@@ -236,3 +236,55 @@ Por fim, basta aguardar a aprovação da Play Store, que demora em média um dia
 # Lançar atualizações
 Para lançar novas atualizações do seu aplicativo basta seguir o passo anterior [Criar e publicar uma versão](#criar-e-publicar-uma-versão)
 
+# Como criar Android App Bundles (.aab)
+Para publicar um aplicativo na Google Play Store, é necessário gerar um arquivo de build no formato .aab (Android App Bundle).
+Esse formato permite que a Play Store crie automaticamente versões otimizadas do app para cada tipo de dispositivo Android.
+
+## React Native com Expo
+Se o seu projeto usa Expo, o processo é bem simples:
+Execute o comando abaixo no terminal do projeto:
+```
+eas build -p android
+```
+O Expo irá gerar automaticamente um arquivo .aab assinado.
+Depois, basta enviar esse arquivo diretamente para a Play Store.
+
+## Outras formas (React Native CLI, Kotlin, Flutter, etc.)
+Se o seu projeto for feito com React Native CLI, Kotlin, Java ou Flutter, a maneira mais fácil de gerar um .aab assinado é usando o Android Studio.
+
+Abra o seu projeto no Android Studio. (se não for Kotlin, basta abrir a pasta android/ dentro do seu projeto pelo Android Studio)
+
+No menu superior, clique em `Build` > `Generate Signed App Bundle or APK`. Na segunda janela, deixe a primeira opção selecionada: `Android App Bundle` , depois clique em `Next`
+
+<p align="center">
+  <img width="728" height="428" alt="image" src="https://github.com/user-attachments/assets/9b765200-d9b1-418f-aeac-c4c1167a5576" align="center" /><br>
+  <img width="621" height="407" alt="image" src="https://github.com/user-attachments/assets/8509dcee-930c-4d3a-b51e-4e3907cbafcb" />
+</p>
+
+Agora, selecione o arquivo que será usado para assinar o app.
+Caso ainda não tenha um, clique em `Create new...`, preencha as informações como no exemplo abaixo e clique em OK.
+
+O Android Studio criará um arquivo .jks, usado para assinar seu aplicativo.
+
+⚠️ Atenção: Guarde esse arquivo e as senhas com segurança!<br>
+A Play Store exige que todas as atualizações do app sejam assinadas com o mesmo arquivo .jks.<br>
+Se você perder o arquivo, será possível solicitar uma nova assinatura, mas o processo de aprovação leva cerca de 3 dias. Portanto guarde o arquivo e anote o `key store password`, `key alias` e `key password`.
+
+<p align="center">
+  <img width="592" height="643" alt="image" src="https://github.com/user-attachments/assets/904e43c9-0af5-41f1-b4b0-57f24af9bb36" />
+</p>
+
+Por fim, selecione o arquivo .jks gerado, insira as senhas salvas e conclua o processo.
+Sempre que quiser criar um novo build assinado, repita o caminho:
+
+`Build` > `Generate Signed App Bundle or APK` > preencha as mesmas informações > `Next` > `Create`.
+
+Será gerado o .aab em: `android\app\build\outputs\bundle\release\app-release.aab`. O Android Studio apresenta a opção para visualizar o arquivo clicando no link `locale` na caixa de sucesso de build.
+
+<p align="center">
+  <img width="592" height="592" alt="image" src="https://github.com/user-attachments/assets/36b6ff85-25f0-4b2b-a9cb-ee4ac5a356e4" />
+</p>
+
+<p align="center">
+  <img width="592" height="592" alt="image" src="https://github.com/user-attachments/assets/49a9bb62-297d-4da7-a692-fbdb44aa0ca7" />
+</p>
