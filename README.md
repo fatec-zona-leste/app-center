@@ -43,7 +43,7 @@ A primeira fase é  "Selecionar testadores", pois o aplicativo pode ter uma vers
 
 ### Criar uma nova versão
 A segunda fase consiste em criar uma nova versão do aplicativo (versão de teste interno para a Play Store avaliar e aprovar a publicação).<br>
-A Play Store aceita apenas arquivo de build com extensão .aab (Android App Bundles) e assinados, NÃO aceita .apk. [Veja como criar aab assinado](como-criar-android-app-bundles-aab)</a>
+A Play Store aceita apenas arquivo de build com extensão .aab (Android App Bundles) e assinados, NÃO aceita .apk. [Veja como criar aab assinado](#como-criar-android-app-bundles-aab)</a>
 
 Nessa etapa, é necessário definir: <br>
 Nome da versão (visível apenas internamente, para fins de controle).<br>
